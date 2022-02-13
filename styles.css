@@ -1,0 +1,66 @@
+.grid-container{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat 33% 34% 33%;
+    grid-template-rows: repeat(2, 50%);
+    height: 1000px;
+    width: 100%;
+}
+
+h4 {
+    grid-column: 1/4 ;
+    grid-row: 1/2;
+    margin: 0;
+    background-color: aqua;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+}
+
+.SectionOne {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    width: 33%;
+    padding-left: 200px;
+
+}
+
+.SectionTwo {
+    grid-row: 2/3;
+    grid-column:2/3 ;
+    width: 34%;
+}
+
+.SectionThree {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    width: 33%;
+}
+
+h3 {
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+}
+
+p {
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(180deg, #ffffff 50%, #080c0c 50%);
+}
+.rectangle {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    color: chartreuse;
+    height: 22px;
+    width: 163px;
+}
+
